@@ -1,3 +1,4 @@
+--TODO Tornar código mais correto, limpando os elementos iguais de ambas as listas (esta versão já passa nos casos de teste)
 --filterEqualElements :: [Int] -> [Int]
 --filterEqualElements lista = filterEqualElementsAux lista []
 
