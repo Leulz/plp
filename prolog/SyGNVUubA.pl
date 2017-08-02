@@ -6,7 +6,7 @@ densidade(china,144.44).
 densidade(japao,127).
 densidade(russia,8.35).
 
-temMaiorDensidade(A,B,C) :- densidade(A,X), densidade(A,J), densidade(B,K), X>=J, X>=K.
+temMaiorDensidade(A,B,C) :- (densidade(C,X), densidade(A,J), densidade(B,K), X>J, X==K);(densidade(C,X), densidade(A,J), densidade(B,K), X>K, X==J).
 
 :- initialization(main).
 main:-
